@@ -205,7 +205,7 @@
         <summary>
             Adds the <see cref="T:System.Net.Http.IHttpClientFactory" /> and related services to the <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection" /> and configures
             a binding between the <typeparamref name="TClient" /> type and a named <see cref="T:System.Net.Http.HttpClient" />. The client name
-            will be set to the full name of <typeparamref name="TClient" />.
+            will be set to the name of <typeparamref name="TClient" />.
             </summary>
         <returns>An <see cref="T:Microsoft.Extensions.DependencyInjection.IHttpClientBuilder" /> that can be used to configure the client.</returns>
         <remarks>
